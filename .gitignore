@@ -2,6 +2,7 @@
 **/.terraform/*
 *.tfstate
 *.tfstate.*
+*.tfplan
 crash.log
 crash.*.log
 *.tfvars
@@ -20,3 +21,23 @@ lab-key.pub
 # Environment Variables
 .env
 .env.local
+
+# Local UI-capture scratch files (final evidence has no leading underscore)
+evidence/_*
+
+# Superseded local evidence from earlier dry runs
+evidence/7.1-*
+evidence/7.2-*
+evidence/7.4-*
+evidence/final-apply.log
+evidence/final-benchmark-and-resources.txt
+evidence/final-compute-replace.log
+evidence/final-destroy.log
+evidence/final-cp1-cp2-environment.txt
+evidence/final-cp2-dataset.txt
+submission/evidence/cp1-cp2-environment.txt
+submission/evidence/cp2-dataset.txt
+
+# Local Python/SSH runtime files
+__pycache__/
+ssh_config

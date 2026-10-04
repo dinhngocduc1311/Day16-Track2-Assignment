@@ -1,0 +1,15 @@
+AWS COST EXPLORER STATUS - SECTION 5.2
+Collected: 2026-10-03 11:46:28 +07:00
+Interval: 2026-10-01 -> 2026-10-04 (end exclusive)
+Exit code: 254
+Billing read permission: granted (no AccessDeniedException)
+
+aws.exe :
+At line:35 char:111
++ ... -dd'); $ce=(& aws ce get-cost-and-usage --time-period "Start=$start,E ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+aws: [ERROR]: An error occurred (DataUnavailableException) when calling the GetCostAndUsage operation: Data is not
+available. Please try to adjust the time period. If just enabled Cost Explorer, data might not be ingested yet

@@ -1,0 +1,12 @@
+AWS ACCOUNT PLAN / FREE TIER STATUS
+Checked: 2026-10-04 23:20:28 +07:00 (Asia/Bangkok)
+AWS account: <redacted>
+
+Account plan type: PAID
+Account plan status: ACTIVE
+Account-plan remaining credits: USD 0.00
+Trial expiration: not returned because the account plan is PAID, not a trial plan
+
+This value comes from `aws freetier get-account-plan-state`.
+It does not prove that no separate promotional credit exists in the Billing Credits page,
+but the $100 Free Tier credit must not be assumed available for this account.

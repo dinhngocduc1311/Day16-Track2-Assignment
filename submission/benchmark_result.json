@@ -1,0 +1,46 @@
+{
+  "environment": {
+    "rows": 284807,
+    "features": 30,
+    "fraud_rows": 492,
+    "missing_values": 0,
+    "logical_cpu_count": 2,
+    "lightgbm_threads": 2,
+    "random_seed": 42,
+    "split": {
+      "train": 199364,
+      "validation": 28481,
+      "test": 56962
+    }
+  },
+  "timing_seconds": {
+    "load_data": 2.510022,
+    "training": 6.449693
+  },
+  "training": {
+    "best_iteration": 149,
+    "class_imbalance_ratio": 576.866667,
+    "decision_threshold": 0.37287592
+  },
+  "metrics": {
+    "roc_auc": 0.9760849,
+    "pr_auc": 0.86831678,
+    "accuracy": 0.99949089,
+    "f1_score": 0.84153005,
+    "precision": 0.90588235,
+    "recall": 0.78571429,
+    "confusion_matrix": {
+      "tn": 56856,
+      "fp": 8,
+      "fn": 21,
+      "tp": 77
+    }
+  },
+  "inference": {
+    "single_row_median_ms": 0.668057,
+    "single_row_p95_ms": 1.352195,
+    "batch_size": 1000,
+    "batch_average_ms": 5.902205,
+    "throughput_rows_per_second": 169428.22
+  }
+}

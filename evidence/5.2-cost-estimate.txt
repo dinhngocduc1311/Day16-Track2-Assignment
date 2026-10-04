@@ -1,0 +1,17 @@
+AWS COST ESTIMATE - SECTION 5.2 SUPPORTING EVIDENCE
+Calculated: 2026-10-03 11:05:18 +07:00
+Region: us-east-1
+Status: ESTIMATE ONLY - NOT A BILLING CONSOLE SCREENSHOT
+
+EC2 compute t3.medium                             qty=1  unit=$0.041800/h  subtotal=$0.041800/h
+EC2 bastion t3.micro                              qty=1  unit=$0.010400/h  subtotal=$0.010400/h
+NAT Gateway                                       qty=1  unit=$0.045000/h  subtotal=$0.045000/h
+Application Load Balancer                         qty=1  unit=$0.022500/h  subtotal=$0.022500/h
+Public IPv4 (Bastion + NAT + 2 ALB AZs)           qty=4  unit=$0.005000/h  subtotal=$0.020000/h
+EBS 30 GiB gp3 + 8 GiB gp2 (730 h/month)          qty=1  unit=$0.004384/h  subtotal=$0.004384/h
+
+Fixed hourly estimate: $0.144084/h
+2.5-hour estimate:     $0.360210
+
+Excluded: NAT data processing, ALB LCU, internet data transfer, tax.
+Prices are the documented lab assumptions in README_aws.md; verify current AWS pricing and the actual Billing Console before submission.

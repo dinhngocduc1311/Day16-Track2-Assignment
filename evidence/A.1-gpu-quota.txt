@@ -1,0 +1,12 @@
+AWS GPU QUOTA EVIDENCE - APPENDIX A.1
+Collected: 2026-10-03 11:59:48 +07:00
+Region: us-east-1
+Quota: Running On-Demand G and VT instances
+Quota code: L-DB2E81BA
+Current applied value: 0.0 vCPU
+Requested value: 4.0 vCPU
+Request ID: 9180af867d034c9aaf0fe3869adb8b1eUHRJh7y2
+Request status: CASE_OPENED
+Created: 2026-10-03T11:43:42.056000+07:00
+Last updated by AWS: 2026-10-03T11:46:47.250000+07:00
+Terraform apply intentionally not run while applied quota is below 4 vCPU.

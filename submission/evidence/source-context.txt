@@ -1,0 +1,10 @@
+Repository: https://github.com/dinhngocduc1311/Day16-Track2-Assignment.git
+Branch: main
+Source commit: 55539f67d7c78b43afe334a2ec3271c4bfdbbe2d
+Cloud: AWS
+Region: us-east-1
+Compute: t3.medium, Ubuntu 22.04, private subnet via Bastion
+Git: 2.39.2.windows.1
+OpenSSH: OpenSSH_for_Windows_9.5p1
+Terraform: 1.16.4 windows_amd64
+AWS CLI: 2.37.8

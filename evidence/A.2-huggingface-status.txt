@@ -1,0 +1,10 @@
+HUGGING FACE MODEL STATUS - APPENDIX A.2
+Collected: 2026-10-03 11:46:28 +07:00
+Model: google/gemma-4-E2B-it
+Private: False
+Gated: False
+Disabled: False
+License: apache-2.0
+Local HF_TOKEN present: True
+Local HF_TOKEN authenticated successfully: True
+Token value intentionally omitted.

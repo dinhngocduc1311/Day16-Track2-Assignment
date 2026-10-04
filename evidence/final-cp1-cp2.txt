@@ -1,0 +1,12 @@
+=== CP1 INSTANCE ===
+2026-10-04T16:54:25+00:00
+ip-10-0-10-146
+x86_64
+=== CP2 ENVIRONMENT ===
+status: done
+OK
+Kaggle API 1.7.4.5
+=== CP2 DATASET ===
+Shape: (284807, 31)
+Missing: 0
+Class counts: {0: 284315, 1: 492}

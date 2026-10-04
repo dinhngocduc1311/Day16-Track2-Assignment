@@ -1,0 +1,21 @@
+=== LIVE RESOURCE SNAPSHOT DURING BENCHMARK PID 3704 ===
+2026-10-04T23:52:44+07:00
+top - 16:52:46 up 11 min,  0 users,  load average: 0.39, 0.33, 0.19
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.8 us,  2.0 sy,  0.0 ni, 49.8 id,  0.0 wa,  0.0 hi,  0.0 si,  7.5 st
+MiB Mem :   3836.7 total,   1726.3 free,    332.0 used,   1778.5 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3230.3 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3704 ubuntu    20   0  487004 188584  58688 R 101.0   4.8   0:02.37 python3
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       370Mi       1.6Gi       2.0Mi       1.7Gi       3.1Gi
+Swap:             0B          0B          0B
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 02:ff:f7:9b:73:c5 brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast
+     279833939  193081      0       0       0       0
+    TX:  bytes packets errors dropped carrier collsns
+        891974   10420      0       0       0       0
+    altname enp0s5
+Benchmark exit: 0

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><style>
+*{box-sizing:border-box} body{margin:0;background:#0b1220;color:#e5edf7;font-family:Segoe UI,Arial,sans-serif}.page{width:1400px;min-height:860px;padding:42px 56px}.eyebrow{color:#f7b955;font-size:18px;font-weight:700;letter-spacing:.08em}.title{font-size:36px;margin:8px 0 4px}.meta{color:#9fb0c6;font-size:17px;margin-bottom:26px}.warning{border:1px solid #f7b955;background:#2b2416;color:#ffd98f;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-weight:650}.grid{display:grid;grid-template-columns:1fr 210px 230px;gap:1px;background:#334155;border:1px solid #334155;border-radius:10px;overflow:hidden}.cell{background:#111b2d;padding:13px 16px;font-size:17px}.head{background:#1e293b;font-weight:700;color:#cbd5e1}.right{text-align:right;font-variant-numeric:tabular-nums}.total{background:#173b32;color:#a7f3d0;font-weight:750;font-size:19px}.formula{margin-top:24px;display:flex;gap:18px}.card{flex:1;background:#111b2d;border:1px solid #334155;border-radius:10px;padding:18px}.label{color:#9fb0c6;font-size:15px}.value{font-size:29px;font-weight:750;margin-top:5px}.foot{margin-top:24px;color:#9fb0c6;font-size:15px;line-height:1.5}.source{color:#7dd3fc}
+</style></head><body><div class="page">
+<div class="eyebrow">SECTION 5.2 · SUPPORTING EVIDENCE</div><div class="title">AWS cost estimate — current CPU lab</div><div class="meta">us-east-1 · Calculated 2026-10-03 11:05:18 +07:00</div>
+<div class="warning">ESTIMATE ONLY — this is not an AWS Billing Console screenshot.</div>
+<div class="grid">
+<div class="cell head">Resource</div><div class="cell head right">Quantity × unit/hour</div><div class="cell head right">Subtotal/hour</div>
+<div class="cell">EC2 compute · t3.medium</div><div class="cell right">1 × $0.041800</div><div class="cell right">$0.041800</div>
+<div class="cell">EC2 bastion · t3.micro</div><div class="cell right">1 × $0.010400</div><div class="cell right">$0.010400</div>
+<div class="cell">NAT Gateway</div><div class="cell right">1 × $0.045000</div><div class="cell right">$0.045000</div>
+<div class="cell">Application Load Balancer</div><div class="cell right">1 × $0.022500</div><div class="cell right">$0.022500</div>
+<div class="cell">Public IPv4 · Bastion + NAT + 2 ALB AZs</div><div class="cell right">4 × $0.005000</div><div class="cell right">$0.020000</div>
+<div class="cell">EBS · 30 GiB gp3 + 8 GiB gp2</div><div class="cell right">monthly ÷ 730 h</div><div class="cell right">$0.004384</div>
+<div class="cell total">Fixed estimate</div><div class="cell total right">per hour</div><div class="cell total right">$0.144084</div>
+</div>
+<div class="formula"><div class="card"><div class="label">FIXED HOURLY ESTIMATE</div><div class="value">$0.144084 / hour</div></div><div class="card"><div class="label">EXAMPLE · 2.5 HOURS</div><div class="value">$0.360210</div></div></div>
+<div class="foot">Excluded: NAT data processing, ALB LCU, internet data transfer, and tax.<br><span class="source">Source data:</span> evidence/5.2-cost-estimate.txt and evidence/5.2-resource-inventory.txt. Verify actual accrued cost in AWS Billing before submission.</div>
+</div></body></html>

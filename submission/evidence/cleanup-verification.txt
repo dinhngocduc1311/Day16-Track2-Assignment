@@ -1,0 +1,11 @@
+Checked: 2026-10-04 23:56:54 +07:00 (Asia/Bangkok)
+TerraformStateResources=0
+ActiveLabEC2=0
+ActiveLabNAT=0
+LabALB=0
+AccountEIP=0
+AvailableEBS=0
+LabVPC=0
+LabKeyPairs=0
+LabIAMRoles=0
+LabInstanceProfiles=0

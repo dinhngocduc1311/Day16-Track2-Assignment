@@ -1,0 +1,17 @@
+AWS COST EXPLORER ACCESS CHECK - SECTION 5.2
+Checked: 2026-10-03 11:11:12 +07:00
+Requested interval: 2026-10-03 -> 2026-10-04 (end exclusive)
+Expected at this stage: AccessDeniedException until a cost-read policy is explicitly approved.
+Exit code: 254
+
+aws.exe :
+At line:3 char:12
++ $output = (& aws ce get-cost-and-usage --time-period "Start=$start,En ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+aws: [ERROR]: An error occurred (AccessDeniedException) when calling the GetCostAndUsage operation: User:
+arn:aws:iam::415150458684:user/ai-lab-user is not authorized to perform: ce:GetCostAndUsage on resource:
+arn:aws:ce:us-east-1:415150458684:/GetCostAndUsage because no identity-based policy allows the ce:GetCostAndUsage
+action

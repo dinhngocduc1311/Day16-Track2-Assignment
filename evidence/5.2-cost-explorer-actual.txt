@@ -1,0 +1,25 @@
+AWS Cost Explorer API evidence
+Checked: 2026-10-04 22:22:42 +07:00
+Account: 415150458684
+Period: 2026-10-01 (inclusive) to 2026-10-05 (exclusive)
+Granularity: DAILY
+Metric: UnblendedCost
+Group by: SERVICE
+AWS response Estimated: true
+
+Date        Service                                      Cost (USD)
+2026-10-03  Amazon Elastic Compute Cloud - Compute        0.529678
+2026-10-03  Amazon Elastic Load Balancing                 0.225006
+2026-10-03  Amazon Simple Storage Service                 0.000035
+2026-10-03  Amazon Virtual Private Cloud                  0.204039
+2026-10-03  AmazonCloudWatch                              0.000080
+2026-10-03  AWS Cost Explorer                             0.030000
+2026-10-03  AWS Secrets Manager                           0.000010
+2026-10-03  EC2 - Other                                   0.539957
+2026-10-04  Amazon Simple Storage Service                 0.000005
+                                                             --------
+Total                                                     1.528809
+
+The total was calculated deterministically from every returned service group.
+Values are authentic AWS API data but still estimated and may be adjusted by AWS.
+This is API evidence; capture the same grouped view in AWS Cost Explorer Console if the submission rubric strictly requires a Console screenshot.

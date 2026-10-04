@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0b1220; color: #e5edf7; font-family: "Segoe UI", Arial, sans-serif; }
+    .page { width: 1500px; min-height: 1040px; padding: 50px 64px; }
+    .eyebrow { color: #f7b955; font-size: 18px; font-weight: 700; letter-spacing: .08em; }
+    h1 { font-size: 38px; margin: 10px 0 8px; }
+    .meta { color: #9fb0c6; font-size: 17px; margin-bottom: 28px; }
+    .summary { display: flex; gap: 18px; margin-bottom: 26px; }
+    .card { flex: 1; background: #111b2d; border: 1px solid #334155; border-radius: 12px; padding: 20px 24px; }
+    .label { color: #9fb0c6; font-size: 15px; }
+    .value { color: #a7f3d0; font-size: 29px; font-weight: 700; margin-top: 6px; }
+    table { width: 100%; border-collapse: collapse; background: #111b2d; border: 1px solid #334155; border-radius: 12px; overflow: hidden; }
+    th, td { padding: 14px 18px; border-bottom: 1px solid #28364a; font-size: 17px; text-align: left; }
+    th { color: #9fb0c6; background: #152238; }
+    td.amount { text-align: right; font-family: Consolas, monospace; }
+    tr:last-child td { border-bottom: 0; }
+    .foot { color: #9fb0c6; font-size: 15px; margin-top: 20px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="eyebrow">SECTION 5.2 · AUTHENTIC AWS COST EXPLORER API DATA</div>
+    <h1>Daily unblended cost grouped by service</h1>
+    <div class="meta">Checked 2026-10-04 22:22:42 +07:00 · Period 2026-10-01 through 2026-10-04 · Estimated: true</div>
+    <div class="summary">
+      <div class="card"><div class="label">Total returned cost</div><div class="value">$1.528809</div></div>
+      <div class="card"><div class="label">Account</div><div class="value">415150458684</div></div>
+      <div class="card"><div class="label">Metric</div><div class="value">UnblendedCost</div></div>
+    </div>
+    <table>
+      <thead><tr><th>Date</th><th>Service</th><th style="text-align:right">Cost (USD)</th></tr></thead>
+      <tbody>
+        <tr><td>2026-10-03</td><td>Amazon Elastic Compute Cloud - Compute</td><td class="amount">0.529678</td></tr>
+        <tr><td>2026-10-03</td><td>EC2 - Other</td><td class="amount">0.539957</td></tr>
+        <tr><td>2026-10-03</td><td>Amazon Elastic Load Balancing</td><td class="amount">0.225006</td></tr>
+        <tr><td>2026-10-03</td><td>Amazon Virtual Private Cloud</td><td class="amount">0.204039</td></tr>
+        <tr><td>2026-10-03</td><td>AWS Cost Explorer</td><td class="amount">0.030000</td></tr>
+        <tr><td>2026-10-03</td><td>AmazonCloudWatch</td><td class="amount">0.000080</td></tr>
+        <tr><td>2026-10-03</td><td>Amazon Simple Storage Service</td><td class="amount">0.000035</td></tr>
+        <tr><td>2026-10-03</td><td>AWS Secrets Manager</td><td class="amount">0.000010</td></tr>
+        <tr><td>2026-10-04</td><td>Amazon Simple Storage Service</td><td class="amount">0.000005</td></tr>
+      </tbody>
+    </table>
+    <div class="foot">Source: AWS Cost Explorer GetCostAndUsage. Raw response summary retained in evidence/5.2-cost-explorer-actual.txt. This is authentic API evidence, not a screenshot of the AWS Console UI.</div>
+  </div>
+</body>
+</html>
